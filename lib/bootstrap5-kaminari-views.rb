@@ -1,4 +1,4 @@
-module Bootstrap4KaminariViews
+module Bootstrap5KaminariViews
   class Engine < Rails::Engine
   end
 end

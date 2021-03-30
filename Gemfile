@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-# Declare your gem's dependencies in bootstrap4-kaminari-views.gemspec.
+# Declare your gem's dependencies in bootstrap5-kaminari-views.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
 gemspec
