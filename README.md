@@ -1,6 +1,6 @@
 # Bootstrap 5 Kaminari Views
 
-Bootstrap 5 compatible styles for [Kaminari](https://github.com/kaminari/kaminari). Tested on Bootstrap 5.0.0-beta3.
+Bootstrap 5 compatible styles for [Kaminari](https://github.com/kaminari/kaminari). Tested on Bootstrap 5.0.1.
 
 # Installation
 Add to your Gemfile
