@@ -1,32 +1,37 @@
-# Bootstrap 5 Kaminari Views
+# Denki Kaminari Extension
 
-Bootstrap 5 compatible styles for [Kaminari](https://github.com/kaminari/kaminari). Tested on Bootstrap 5.0.1.
-
-# Installation
+## Installation
 Add to your Gemfile
-```
-  gem 'kaminari'
-  gem 'bootstrap5-kaminari-views'
+
+```bash
+gem 'denki', '~> 0.0.1'
 ```
 
 And run in console
 
-  `bundle install`
+```bash
+bundle install
+```
 
-# Usage
+## Usage
 Render pagination with this gem's theme:
 
-`paginate @users, theme: 'bootstrap-5'`
+```erb
+<%= paginate(@users, theme: 'bs5') %>
+```
 
 You can also add specific pagination and nav classes:
 
-```
-  paginate @users, theme: 'bootstrap-5',
-                   pagination_class: "pagination-sm flex-wrap justify-content-center",
-                   nav_class: "d-inline-block"
+```erb
+<%= paginate(@users,
+             theme: 'bs5',
+             pagination_class: 'pagination-sm flex-wrap justify-content-center',
+             nav_class: 'd-inline-block') %>
 ```
 
-# Credits
+### Credits
+
+Bootstrap 5 compatible styles for [bootstrap5-kaminari-views](https://github.com/felipecalvo/bootstrap5-kaminari-views)
 
 [Kaminari](https://github.com/kaminari/kaminari) - Pagination gem
 
