@@ -1,0 +1,26 @@
+require:
+  - rubocop-performance
+  - rubocop-rake
+
+Layout/LineLength:
+  Max: 80
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 2.7
+  Exclude:
+    - bin/**/*
+    - vendor/**/*
+    - node_modules/**/*

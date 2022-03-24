@@ -8,5 +8,11 @@
     remote:        data-remote
 -%>
 <li class="page-item<%= ' active' if page.current? %>">
-  <%= link_to page, url, opts = {:remote => remote, :class => 'page-link', :rel => page.next? ? 'next' : page.prev? ? 'prev' : nil} %>
+  <%= link_to page,
+              url,
+              opts = {
+                :remote => remote,
+                :class => 'page-link',
+                :rel => page.next? ? 'next' : page.prev? ? 'prev' : nil
+              } %>
 </li>
