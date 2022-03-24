@@ -4,7 +4,7 @@
 Add to your Gemfile
 
 ```bash
-gem 'denki', '~> 0.0.1'
+gem 'denki', '~> 0.0.2'
 ```
 
 And run in console
