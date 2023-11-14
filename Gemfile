@@ -17,3 +17,8 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug'
+
+gem 'rubocop'
+gem 'rubocop-performance'
+gem 'rubocop-rake'
+gem 'sqlite3'
